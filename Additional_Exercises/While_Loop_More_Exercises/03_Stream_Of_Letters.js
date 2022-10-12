@@ -38,16 +38,6 @@ function hiddenMessage(params) {
         if((symbol.charCodeAt(0) >= 65 && symbol.charCodeAt(0) <= 90) || (symbol.charCodeAt(0) >= 97 && symbol.charCodeAt(0) <= 122)){
             word += symbol
         }
-        /*
-        for (let j = "A".charCodeAt(0); j <= "z".charCodeAt(0); j++){
-            if(symbol == String.fromCharCode(j)){
-                message += symbol
-                break
-            }
-            if(j == 90){
-                j = 97
-            }
-        }*/
     }
 }
 
