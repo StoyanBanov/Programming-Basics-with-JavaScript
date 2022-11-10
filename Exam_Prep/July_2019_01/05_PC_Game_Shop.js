@@ -5,7 +5,7 @@ function stats(params) {
     let fortniteCount = 0
     let overwathCount = 0
     let othersCount = 0
-    for (let i = 0; i < soldGamesCount; i++) {
+    for (let i = 1; i <= soldGamesCount; i++) {
         let name = params[i]
 
         switch (name) {
